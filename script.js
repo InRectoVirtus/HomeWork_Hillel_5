@@ -1,9 +1,6 @@
-let sumFirstArray = 0;
-let sumSecondArray = 0;
-
 function arrayBigger (firstArray, secondArray) {
-    sumFirstArray = 0;
-    sumSecondArray = 0;
+    let sumFirstArray = 0;
+    let sumSecondArray = 0;
     if(((firstArray.every((elem) => typeof elem == 'number')) == true) && ((secondArray.every((elem) => typeof elem == 'number')) == true)) {
         
         for(i = 0; i < firstArray.length; i++) {
