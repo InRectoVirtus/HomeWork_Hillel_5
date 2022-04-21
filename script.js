@@ -24,3 +24,6 @@ function arrayBigger (firstArray, secondArray) {
     };
 };
 
+arrayBigger ([2,1,3], [2,1,2]);
+arrayBigger ([2,1,3], [2,5,3]);
+arrayBigger ([2,`s`,3], [2,3,3]);
