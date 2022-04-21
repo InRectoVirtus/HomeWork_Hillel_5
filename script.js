@@ -3,11 +3,11 @@ function arrayBigger (firstArray, secondArray) {
     let sumSecondArray = 0;
     if(((firstArray.every((elem) => typeof elem == 'number')) == true) && ((secondArray.every((elem) => typeof elem == 'number')) == true)) {
         
-        for(i = 0; i < firstArray.length; i++) {
+        for(let i = 0; i < firstArray.length; i++) {
             sumFirstArray += firstArray[i];
         };
 
-        for(j = 0; j < secondArray.length; j++) {
+        for(let j = 0; j < secondArray.length; j++) {
             sumSecondArray += secondArray[j];
         };
 
